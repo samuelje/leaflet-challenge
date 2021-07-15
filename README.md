@@ -1,6 +1,6 @@
 # leaflet-challenge
 
-![Earthquake-Visualization](static/image/Leaflet-Step-1.png)
+![Earthquake-Visualization](static/image/Leaflet-Step-1.PNG)
 
 ### Data and Code Information
 * The `static` folder contains a custom CSS, map image, and a `config.js` file. The `config.js` file holds the MapBox API key, which needs to be entered in order to run and view the map visualization.
