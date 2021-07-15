@@ -1,5 +1,5 @@
 // Geojson URL
-var url = "https://earthquake.usgs.gov/earthquakes/fehttps://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojsoned/v1.0/summary/all_week.geojson"
+var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 
 // CreateMap function
 function createMap(response) {
@@ -44,7 +44,7 @@ function createMap(response) {
     }).addTo(myMap)
 
      // Bind pop ups to each layer
-     function onEachFeature(feature, layer) {
+    function onEachFeature(feature, layer) {
 
         // Date formatter for pop up
         var format = d3.timeFormat("%d-%b-%Y at %H:%M");
